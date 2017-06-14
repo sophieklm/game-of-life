@@ -11,8 +11,8 @@ describe("Game", function() {
     expect(game).toBeDefined();
   });
 
-  it("contains no cells by default", function() {
+  it("can contain cells", function() {
     expect(game.cells()).toEqual([]);
   });
-
+  
 });
