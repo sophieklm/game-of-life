@@ -6,6 +6,10 @@ Setup and Usage
 $ git clone https://github.com/sophieklm/game-of-life.git
 $ cd game-of-life
 ```
+To view tests:
+```
+$ open path/to/gameoflife/SpecRunner.html
+```
 
 ### Specification
 
