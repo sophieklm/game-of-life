@@ -19,4 +19,13 @@ describe("Cell", function() {
     expect(cell.isAlive).toBe(true);
   });
 
+  it('can have no neighbours', function() {
+    expect(cell.neighbours).toEqual([]);
+  });
+
+  it('can have neighbours', function() {
+    cell.addNeighbour(new Cell());
+    expect(cell.neighbours[0] instanceof Cell).toBe(true);
+  });
+
 });
